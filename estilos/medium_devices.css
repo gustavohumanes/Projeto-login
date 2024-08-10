@@ -1,1 +1,9 @@
 @charset "UTF-8";
+
+body{
+    background-image: linear-gradient(180deg,rgb(174, 208, 253), rgb(107, 171, 255) );
+}
+
+section#login{
+    width: 750px;
+}
