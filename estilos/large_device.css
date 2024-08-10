@@ -16,3 +16,13 @@ section#login > div#img{
     border-radius: 10px;
     border: 3.5px solid cyan;
 }
+
+div#form{
+    text-align: justify;
+    width: 60%;
+    margin: 24px;
+}
+
+div#form h1{
+    text-align: left;
+}
