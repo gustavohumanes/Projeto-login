@@ -7,9 +7,7 @@
 
     <link rel="stylesheet" href="estilos/style.css">
 
-    <link rel="stylesheet" href="estilos/Little_devices.css" media="screen and (max-width:600px)">
-
-    <link rel="stylesheet" href="estilos/medium_devices.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" href="estilos/medium_devices.css" media="screen and (max-width:768px)">
 
     <link rel="stylesheet" href="estilos/large_device.css" media="screen and (min-width:992px)">
 
@@ -25,22 +23,17 @@
             </div>
             <div id="form">
                 <h1>Login <span class="material-symbols-outlined">pentagon</span></h1>
-                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta.</p>
                 <form action="login.python" method="post" autocomplete="off">
                     <div class="campo">
                         <label for="iemail">Email</label>
-                        <br>
-                        <input type="email" name="login" id="iemail" autocomplete="on"
-                        required maxlength="30"
-                        minlength="11">
+                        <input type="email" name="email" id="iemail" autocomplete="on"
+                        required maxlength="30" minlength="11">
                     </div>
                     <div class="campo">
                         <label for="Ipassword">Password</label>
-                        <br>
                         <input type="password" name="password" id="Ipassword"
-                        required
-                        maxlength="16"
-                        minlength="8">
+                        required maxlength="16" minlength="8">
                     </div>
                     <div id="Options_Form">
                         <input type="submit" value=" Login ">
